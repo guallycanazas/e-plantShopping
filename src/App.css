@@ -1,0 +1,205 @@
+/* Paradise Nursery - global styles. Background image for the landing page is set on .landing-hero. */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1b1b1b;
+}
+
+.landing-hero {
+  min-height: calc(100vh - 80px);
+  /* Background image implementing the Paradise Nursery landing page */
+  background-image: url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.55);
+}
+
+.landing-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.landing-hero .company-name {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.landing-hero .tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.landing-hero .btn-get-started {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.landing-hero .btn-get-started:hover {
+  background-color: #1b5e20;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #1b5e20;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar .cart-icon {
+  position: relative;
+  font-size: 1.4rem;
+}
+
+.navbar .cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #ffca28;
+  color: #1b5e20;
+  border-radius: 999px;
+  padding: 0 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.product-list,
+.cart-page,
+.about-page {
+  padding: 1.5rem 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background: #fafafa;
+}
+
+.product-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-card button {
+  margin-top: 0.5rem;
+  background: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card button:disabled {
+  background: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.cart-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 160px 120px 60px;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+.cart-row img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart-quantity button {
+  width: 28px;
+  height: 28px;
+  background: #2e7d32;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cart-quantity span {
+  min-width: 24px;
+  text-align: center;
+}
+
+.cart-line-total {
+  font-weight: 600;
+}
+
+.cart-remove {
+  background: #c62828;
+  color: #ffffff;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-totals {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.cart-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.cart-actions button {
+  background: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f1f8e9;
+  color: #1b5e20;
+  font-size: 0.9rem;
+}
