@@ -1,0 +1,20 @@
+export const plants = [
+  { id: "p1", name: "Monstera Deliciosa", category: "Indoor", price: 24.99, thumbnail: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=400&q=80" },
+  { id: "p2", name: "Fiddle Leaf Fig", category: "Indoor", price: 39.5, thumbnail: "https://images.unsplash.com/photo-1604762524889-3e2fcc145683?auto=format&fit=crop&w=400&q=80" },
+  { id: "p3", name: "Pothos Golden", category: "Indoor", price: 14.0, thumbnail: "https://images.unsplash.com/photo-1525498128493-380d1990a112?auto=format&fit=crop&w=400&q=80" },
+  { id: "p4", name: "Snake Plant", category: "Indoor", price: 18.75, thumbnail: "https://images.unsplash.com/photo-1593482892290-f54927ae1bb6?auto=format&fit=crop&w=400&q=80" },
+  { id: "p5", name: "Peace Lily", category: "Indoor", price: 21.0, thumbnail: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&w=400&q=80" },
+  { id: "p6", name: "ZZ Plant", category: "Indoor", price: 22.5, thumbnail: "https://images.unsplash.com/photo-1632383910010-20f3ce8dfd29?auto=format&fit=crop&w=400&q=80" },
+  { id: "p7", name: "Echeveria Lola", category: "Succulents", price: 9.5, thumbnail: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=400&q=80" },
+  { id: "p8", name: "Aloe Vera", category: "Succulents", price: 11.0, thumbnail: "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=400&q=80" },
+  { id: "p9", name: "Jade Plant", category: "Succulents", price: 13.25, thumbnail: "https://images.unsplash.com/photo-1632383910010-20f3ce8dfd29?auto=format&fit=crop&w=400&q=80" },
+  { id: "p10", name: "Haworthia", category: "Succulents", price: 8.5, thumbnail: "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=400&q=80" },
+  { id: "p11", name: "String of Pearls", category: "Succulents", price: 16.0, thumbnail: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=400&q=80" },
+  { id: "p12", name: "Burro's Tail", category: "Succulents", price: 12.75, thumbnail: "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=400&q=80" },
+  { id: "p13", name: "Spider Plant", category: "Air Purifying", price: 12.0, thumbnail: "https://images.unsplash.com/photo-1572688484438-313a6e50c333?auto=format&fit=crop&w=400&q=80" },
+  { id: "p14", name: "Boston Fern", category: "Air Purifying", price: 15.5, thumbnail: "https://images.unsplash.com/photo-1604762512526-b7068fe2a16f?auto=format&fit=crop&w=400&q=80" },
+  { id: "p15", name: "Areca Palm", category: "Air Purifying", price: 32.0, thumbnail: "https://images.unsplash.com/photo-1611211232932-da3113c5b960?auto=format&fit=crop&w=400&q=80" },
+  { id: "p16", name: "Bamboo Palm", category: "Air Purifying", price: 28.0, thumbnail: "https://images.unsplash.com/photo-1604762524889-3e2fcc145683?auto=format&fit=crop&w=400&q=80" },
+  { id: "p17", name: "Rubber Plant", category: "Air Purifying", price: 19.0, thumbnail: "https://images.unsplash.com/photo-1525498128493-380d1990a112?auto=format&fit=crop&w=400&q=80" },
+  { id: "p18", name: "English Ivy", category: "Air Purifying", price: 11.5, thumbnail: "https://images.unsplash.com/photo-1572688484438-313a6e50c333?auto=format&fit=crop&w=400&q=80" }
+];
